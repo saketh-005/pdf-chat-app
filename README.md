@@ -9,70 +9,85 @@ app_file: app.py
 pinned: false
 ---
 
-# PDF Chat Application
+# PDF Chat App
 
-A PDF chat application that allows you to upload PDFs and ask questions about their content using natural language processing. Built with Streamlit, LangChain, and Hugging Face Transformers, this app runs entirely in your browser on Hugging Face Spaces.
+A modern, privacy-focused web app to chat with your PDF documents using AI. Upload any PDF, ask questions, and get instant answers powered by state-of-the-art language models. Built with Streamlit, LangChain, and Hugging Face Transformers. Easily deployable on [Hugging Face Spaces](https://huggingface.co/spaces/saketh-005/pdf-chat-app) or run locally.
+
+---
 
 ## ✨ Features
-
 - 📄 Upload and process PDF documents
 - 💬 Chat with your documents using natural language
-- 🔒 Local processing - no data leaves your machine
+- 🔒 100% local processing (no data leaves your machine)
 - 🤗 Uses Hugging Face models for embeddings and question answering
-- 🚀 Built with Streamlit for a clean web interface
+- 🚀 One-click deployment on Hugging Face Spaces
+- 🖥️ Simple, beautiful Streamlit interface
 
-## 🛠 Prerequisites
-
-- A Hugging Face account (for Spaces deployment)
-- Git (for cloning the repository)
-- At least 4GB of free RAM (for running the models)
+---
 
 ## 🚀 Getting Started
 
-1. Clone the repository:
+### On Hugging Face Spaces
+Just visit: [https://huggingface.co/spaces/saketh-005/pdf-chat-app](https://huggingface.co/spaces/saketh-005/pdf-chat-app)
+
+### Run Locally
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/saketh-005/pdf-chat-app.git
    cd pdf-chat-app
    ```
-
-2. Install dependencies and run locally (optional):
+2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
+   ```
+3. **Start the app:**
+   ```bash
    streamlit run app.py
    ```
+4. **Open your browser:**
+   Go to [http://localhost:8501](http://localhost:8501)
 
-3. Or deploy directly to Hugging Face Spaces by pushing this folder to your Space.
+---
 
 ## 🖥️ Usage
-
 1. Click "Browse files" to upload a PDF document
-2. Wait for the document to be processed (you'll see a success message)
+2. Wait for the document to be processed
 3. Type your question in the chat input and press Enter
 4. The app will analyze the document and provide an answer
 
-## 🏗️ Project Structure
+---
 
+## 🏗️ Project Structure
 ```
 .
 ├── app.py              # Main Streamlit application
 ├── requirements.txt    # Python dependencies
 ├── .gitignore          # Git ignore file
+├── LICENSE             # License file
 └── README.md           # This file
 ```
 
-## 🤖 Technologies Used
+---
 
+## 🤖 Technologies Used
 - [Streamlit](https://streamlit.io/) - Web application framework
 - [LangChain](https://python.langchain.com/) - Framework for LLM applications
 - [Hugging Face Transformers](https://huggingface.co/transformers/) - NLP models
 - [Chroma DB](https://www.trychroma.com/) - Vector database for document storage
 
+---
+
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+---
 
+## 🙏 Credits
 - [Hugging Face](https://huggingface.co/) for their amazing open-source models
 - [LangChain](https://python.langchain.com/) for simplifying LLM application development
 - [Streamlit](https://streamlit.io/) for the intuitive web interface
+
+---
+
+**Author:** Saketh Jangala
