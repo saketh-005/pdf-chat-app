@@ -1,0 +1,35 @@
+# Core dependencies
+numpy
+setuptools
+wheel
+cython
+
+# Streamlit and web framework
+streamlit>=1.45.1
+
+# PDF processing
+PyPDF2
+
+# Vector database and embeddings
+chromadb
+sentence_transformers
+
+# LangChain and related
+langchain_community
+langchain_core
+langchain_huggingface
+langchain
+langchain_text_splitters
+
+# Hugging Face ecosystem
+transformers
+accelerate
+huggingface_hub
+
+# Utilities
+tqdm
+python_dotenv
+
+torch
+
+watchdog
